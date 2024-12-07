@@ -18,7 +18,7 @@ spec:
         app: rust-app
     spec:
       containers:
-        - image: $USER_DOCKER/rust-workshop-jumpbox:strenv(IMAGE_TAG)
+        - image: ""
           name: rust-workshop-jumpbox
           resources: {}
           ports:
