@@ -18,7 +18,7 @@ spec:
         app: rust-app
     spec:
       containers:
-        - image: "teewasza8989/rust-workshop-jumpbox:dev-1d09de3"
+        - image: "teewasza8989/rust-workshop-jumpbox:dev-e9cb1fd"
           name: rust-workshop-jumpbox
           resources: {}
           ports:
